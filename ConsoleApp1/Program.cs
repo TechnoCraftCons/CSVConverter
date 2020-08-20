@@ -15,6 +15,7 @@ namespace ConsoleApp1
             StringBuilder sb = new StringBuilder();
             string delimiter = ",";
 
+            // replace your location to the xml file
             XDocument.Load(@"C:\Users\nebiy\source\repos\ConsoleApp1\ConsoleApp1\XMLFile1.xml").Descendants("Item").ToList().ForEach(
                 element => sb.Append(
                                      element.Element("SNO").Value + delimiter +
@@ -28,7 +29,7 @@ namespace ConsoleApp1
                                      element.Element("ORD_QTY").Value + delimiter +
                                      element.Element("ITEM_UNIT_COST").Value + delimiter +
                                      element.Element("ITEM_UNIT_PRICE").Value + "\r\n"));
-
+            // replace your location to the new csv file
             StreamWriter sw = new StreamWriter(@"C:\Users\nebiy\source\repos\ConsoleApp1\ConsoleApp1\Result.csv");
             sw.WriteLine(sb.ToString());
             sw.Close();
