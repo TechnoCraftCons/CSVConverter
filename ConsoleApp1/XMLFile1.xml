@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MT_Order_JTI_PMI>
+  <orders Type = "Laptop">
+    <Item>
+      <SNO>1</SNO>
+      <DELV_DATE>18/06/2017</DELV_DATE>
+      <STORE_CD>192</STORE_CD>
+      <ITEM_CD>01123</ITEM_CD>
+      <ITEM_LONG_NAME>123 main st</ITEM_LONG_NAME>
+      <BARCODE_NO>1223545</BARCODE_NO>
+      <ORD_SLIP_NO>50000</ORD_SLIP_NO>
+      <PSA_CD>5</PSA_CD>
+      <ORD_QTY>10</ORD_QTY>
+      <ITEM_UNIT_COST>10.36</ITEM_UNIT_COST>
+      <ITEM_UNIT_PRICE>0.0</ITEM_UNIT_PRICE>
+    </Item>
+    <Item>
+      <SNO>2</SNO>
+      <DELV_DATE>18/06/2017</DELV_DATE>
+      <STORE_CD>192</STORE_CD>
+      <ITEM_CD>01123</ITEM_CD>
+      <ITEM_LONG_NAME>123 main st</ITEM_LONG_NAME>
+      <BARCODE_NO>1223545</BARCODE_NO>
+      <ORD_SLIP_NO>50000</ORD_SLIP_NO>
+      <PSA_CD>5</PSA_CD>
+      <ORD_QTY>10</ORD_QTY>
+      <ITEM_UNIT_COST>10.36</ITEM_UNIT_COST>
+      <ITEM_UNIT_PRICE>0.0</ITEM_UNIT_PRICE>
+    </Item>
+  </orders>
+</MT_Order_JTI_PMI>
